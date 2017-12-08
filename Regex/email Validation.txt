@@ -1,0 +1,5 @@
+String trial = "Aa_@infosys.co.in";
+		
+		System.out.println(trial.matches("^.*[A-Z]+.*@.*\\..*\\.?.*$") && trial.matches("^.*[a-z]+.*@.*\\..*\\.?.*$") && trial.matches("^.*[_]+.*@.*\\..*\\.?.*$"));
+		
+		System.out.println(trial.matches("^((?=.*[a-z])(?=.*[A-Z])(?=.*[_]).*)@.*\\..*\\.?.*$"));
